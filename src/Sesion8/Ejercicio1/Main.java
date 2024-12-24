@@ -6,6 +6,7 @@ package Sesion8.Ejercicio1;
 // se busca en el array de caracteres la letra correspondiente. El orden de los caracteres es: (L1)
 //T, R, W, A, G, M,Y, F, P, D, X, B, N, J, Z, S, Q,V, H, L, C, K, E
 
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -19,12 +20,9 @@ public class Main {
                 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
 
         System.out.println(dni + " - " + letra[resto]);
-
-//        for (int i = 0; i < letra.length; i++) {
-//
-//
-//
-//        }
-
     }
+//    Map<Integer, Character> mapa = Map.of(0, 'T',
+//            1, 'R', 2, 'W');
+//
+//        mapa.get(resto);
 }
