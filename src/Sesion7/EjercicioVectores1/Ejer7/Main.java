@@ -12,12 +12,14 @@ public class Main {
         int min = 1;
         int max = 100;
 
+
+
+        for (int i = 0; i < numeros.length ; i++) {
+            numeros [i] = (int) (Math.random() * (max - min + 1)) + min;
+        }
         int numMax = numeros[0];
         int numMin = numeros[0];
-
-        for (int i = 1; i < numeros.length ; i++) {
-            numeros [i] = (int) (Math.random() * (max - min + 1)) + min;
-
+        for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] > numMax) {
                 numMax = numeros [i];
             }
