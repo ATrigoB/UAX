@@ -33,7 +33,7 @@ public class Main {
         System.out.println(Arrays.toString(nombre));
         System.out.println(Arrays.toString(precio));
         System.out.println(Arrays.toString(stock));
-
+//aqui hay que hacerlo con arrays paralelos, hacer un for y meter en el sout las tres cosas
         //si se vendiera todo, dinero que recibiria la tienda
         double sumaTotal = 0;
         for (int i = 0; i < nombre.length; i++) {

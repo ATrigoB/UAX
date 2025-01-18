@@ -21,7 +21,7 @@ public class Main {
                 cuenta--;
             }
             if (suma > 9 ){
-                resultado.add(0,suma % 10);
+                resultado.add(0,suma % 10); //aquí se podría restar 10 tambien
                 cuenta++;
             }else resultado.add(0, suma);
         }

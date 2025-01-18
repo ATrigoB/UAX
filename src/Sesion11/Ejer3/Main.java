@@ -7,8 +7,6 @@ public class Main {
 
         int[] numeros = new int[15];
 
-
-
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = (int) (Math.random() * 101);
         }
@@ -25,5 +23,6 @@ public class Main {
         System.out.println(Arrays.toString(numeros));
         System.out.println(max + " máximo");
         System.out.println(min + " mínimo");
+        //se puede hacer con arrays.sort --> ordena de menor a mayor;
     }
 }
